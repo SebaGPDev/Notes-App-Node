@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 });
 
 // Static files
-app.use(express.static(path.join(__dirname, "static")));
+app.use(express.static(path.join(__dirname, "public",)));
 
 // Exports
 module.exports = app;
